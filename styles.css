@@ -1,0 +1,92 @@
+/* Applique la police Roboto à tout le site */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #200000;
+}
+
+/* Stylisation de l'en-tête */
+header {
+    background-color: #20000093;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Stylisation des liens de navigation */
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #761927; /* Couleur au survol */
+}
+
+/* Stylisation des sections */
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(171, 93, 93, 0.1);
+}
+
+h2 {
+    color: #761036;
+}
+
+/* Stylisation du formulaire de contact */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #200000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #76042a;
+}
+
+/* Stylisation du pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #200000;
+    color: white;
+}
+
+footer video {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
