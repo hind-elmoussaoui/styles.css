@@ -1,69 +1,84 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body> 
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>Bienvenue sur mon portfolio</h1>
-        <nav>
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#work">work</a>
-            <a href="#resume">resume</a>
-            <a href="#contact">contact</a>
-        </nav>
+      <h1>Bienvenue sur mon portfolio</h1>
+      <nav>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#work">work</a>
+        <a href="#resume">resume</a>
+        <a href="#contact">contact</a>
+      </nav>
     </header>
     <main>
-    <section id="about">
+      <section id="about">
         <h2>About</h2>
         <p>Je suis un développeur web passionné.</p>
         <audio controls>
-          <source src="audio.mp3" type="audio/mpeg">
+          <source src="audio.mp3" type="audio/mpeg" />
         </audio>
-      </section>      
-    <section id="work">
+      </section>
+      <section id="work">
         <h2>work</h2>
-        <ul>
-            <li><a href="project1.html">projet 1</a></li>
-            <li><a href="project2.html">projet 2</a></li>
-        </ul>
-    </section>
-    <section id="resume">
+        <Nav>
+        <nav class="work-cont" >
+          <nav class="work-item" >
+            <a class="#HTML"  target="_blank" >HTML</a>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="no img" width="300">
+            <p>HTML est le langage standard pour structurer le contenu d'une page web.</p>
+          </nav>
+          <nav class="work-item">
+            <a class="#CSS" target="_blank">CSS</a>
+            <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="no img" width="300">
+            <p>CSS est utilisé pour styliser et améliorer l'apparence des pages web.</p>
+            
+          </nav>
+        <nav class="work-item">
+            <a class="#PYTHON" target="_blank">PYTHON</a>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="no img" width="300">
+            <p>Python est un langage de programmation polyvalent et puissant.</p>
+        </nav>
+          </nav>
+        </Nav>
+      </section>
+      <section id="resume">
         <h2>resume</h2>
         <table>
-            <tr>
-                <th>Année</th>
-                <th>expérience</th>
-            </tr>
-            <tr>
-                <td>2024-2025</td>
-                <td>développeur front-end</td>
-            </tr>
+          <tr>
+            <th>Année</th>
+            <th>expérience</th>
+          </tr>
+          <tr>
+            <td>2024-2025</td>
+            <td>développeur front-end</td>
+          </tr>
         </table>
-    </section>
-    <section id="contact">
-    
+      </section>
+      <section id="contact">
         <h2>contact</h2>
         <form action="submit_form.php" method="post">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required><br>
-            <textarea name="message" id="message" rows="5" required></textarea><br>
-            <button type="submit">Envoyer</button>
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required /><br />
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required /><br />
+          <textarea name="message" id="message" rows="5" required></textarea
+          ><br />
+          <button type="submit">Envoyer</button>
         </form>
-    </section>
-</main>
+      </section>
+    </main>
     <footer>
-        <p>&copy; 2024 ven portfolio.</p>
-        <video controls>
-            <source src="video.mp4" type="video/mp4">
-        </video>
+      <p>&copy; 2024 ven portfolio.</p>
+      <video controls>
+        <source src="video.mp4" type="video/mp4" />
+      </video>
     </footer>
-    
-</body>
+  </body>
 </html>
